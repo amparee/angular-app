@@ -3,15 +3,12 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
-
+//routes
 import { APP_ROUTING } from './app.routes';
 
+//service
 
-
-
-
-
-
+//components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -20,7 +17,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -37,7 +34,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    APP_ROUTING
+    APP_ROUTING,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
