@@ -17,6 +17,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { HeroeComponent } from './components/heroe/heroe.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     AboutComponent,
     HeroesComponent,
     HomeComponent,
-    SidenavComponent
+    SidenavComponent,
+    HeroeComponent
   ],
   imports: [
     BrowserModule,

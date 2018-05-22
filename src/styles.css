@@ -488,3 +488,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
     margin-top: 60px;
     margin-left: auto;
 }
+
+.img-logo {
+    width: 100px;
+}
