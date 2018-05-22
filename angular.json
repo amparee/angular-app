@@ -25,9 +25,21 @@
                         "styles": [
                             "src/styles.css",
                             "node_modules/bootstrap/dist/css/bootstrap.css",
-                            "node_modules/font-awesome/css/font-awesome.css"
+                            "node_modules/font-awesome/css/font-awesome.css",
+                            "css/metisMenu.min.css",
+                            "css/morris.css",
+                            "css/sb-admin-2.css"
                         ],
-                        "scripts": []
+                        "scripts": [
+                            "js/jquery.min.js",
+                            "js/metisMenu.min.js",
+                            "js/morris-data.js",
+                            "js/morris.min.js",
+                            "js/raphael.min.js",
+                            "js/sb-admin-2.js",
+                            "node_modules/jquery/dist/jquery.js",
+                            "node_modules/bootstrap/dist/js/bootstrap.js"
+                        ]
                     },
                     "configurations": {
                         "production": {

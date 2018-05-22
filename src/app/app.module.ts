@@ -3,12 +3,11 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
-//routes
 import { APP_ROUTING } from './app.routes';
 
-//service
+import { HeroesService } from './services/heroes.service';
 
-//components
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -37,7 +36,9 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     APP_ROUTING,
     AngularFontAwesomeModule
   ],
-  providers: [],
+  providers: [
+    HeroesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
