@@ -19,6 +19,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     HomeComponent,
     SidenavComponent,
     HeroeComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
